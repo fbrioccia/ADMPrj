@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace tweet_test.Models
+namespace ADMPrj.Models
 {
     public static class Constants
     {

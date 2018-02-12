@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace tweet_test
+namespace ADMPrj
 {
     public class BundleConfig
     {

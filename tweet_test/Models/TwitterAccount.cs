@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace tweet_test.Models
+namespace ADMPrj.Models
 {
     public class TwitterAccount
     {

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Services;
-using tweet_test.Data;
-using tweet_test.Models;
+using ADMPrj.Data;
+using ADMPrj.Models;
 
-namespace tweet_test.Controllers
+namespace ADMPrj.Controllers
 {
     public class HomeController : Controller
     {

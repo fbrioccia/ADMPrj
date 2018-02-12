@@ -1,8 +1,8 @@
-﻿using tweet_test.Models;
+﻿using ADMPrj.Models;
 using System;
 using System.Collections.Generic;
 
-namespace tweet_test.Data
+namespace ADMPrj.Data
 {
     public interface INeo4JDataHandler
     {

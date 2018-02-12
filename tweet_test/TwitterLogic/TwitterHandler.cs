@@ -4,8 +4,8 @@ using System.Linq;
 using System.Web;
 using Crafted.Twitter;
 using LinqToTwitter;
-using tweet_test.Models;
-namespace tweet_test.TwitterLogic
+using ADMPrj.Models;
+namespace ADMPrj.TwitterLogic
 {
     public class TwitterHandler
     {

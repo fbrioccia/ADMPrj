@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Data.SQLite;
 using System.Linq;
 using System.Web;
-using tweet_test.Models;
-using tweet_test.Utilities;
+using ADMPrj.Models;
+using ADMPrj.Utilities;
 
-namespace tweet_test.Data
+namespace ADMPrj.Data
 {
     public class SQLDataManager
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Web;
 
-namespace tweet_test.Utilities
+namespace ADMPrj.Utilities
 {
     public class NodeNameGen
     {

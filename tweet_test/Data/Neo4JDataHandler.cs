@@ -8,10 +8,10 @@ using System.Globalization;
 using System.Linq;
 using System.Reflection;
 using System.Web;
-using tweet_test.Models;
-using tweet_test.Utilities;
+using ADMPrj.Models;
+using ADMPrj.Utilities;
 
-namespace tweet_test.Data
+namespace ADMPrj.Data
 {
     public class Neo4JDataHandler : INeo4JDataHandler
     {
