@@ -1,0 +1,35 @@
+﻿@model  IEnumerable<tweet_test.Models.SeekResults>
+@using System;
+@using System.Collections.Generic;
+@{
+    ViewBag.Title = "Seek";
+}
+<script src="~/Scripts/jquery-3.2.1.min.js"></script>
+<script src="~/Scripts/seekPageLoad.js"></script>
+
+<h2>Seek</h2>
+
+<div class="col-md-3">
+
+    <div class="input-group add-on">
+        <input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
+        <div class="input-group-btn">
+            <button id="search-tweets-button" onclick="searchClick()" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+        </div>
+    </div>
+
+
+</div>
+<br />
+<div class="container" style="float:right">
+    <br /><br />
+    <div class="list-group">
+        <div class="loop">
+        </div>
+    </div>
+     <div style="float:right; width:10%;">
+
+        <button  type="button" class="btn btn-secondary btn-lg" onclick="nextClick()" disabled>Next</button>
+     </div>
+    <br /><br />
+</div>
