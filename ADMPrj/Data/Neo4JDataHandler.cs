@@ -125,7 +125,7 @@ namespace ADMPrj.Data
                     var tokenArray = tweet.Text.ToLower().Split(delimiterChars).Where(x => !string.IsNullOrEmpty(x)).ToArray();
 
                     var dictionaryTokenType = new List<Tuple<string, string>>();
-                    for (int i = 0; i < tokenArray.Length - 1; i++)
+                    for (int i = 0; i < tokenArray.Length; i++)
                     {
                         var taggedTokenArray = tagger.tagString(tokenArray[i]).Split(new Char[] { '_', ' ' }).Where(x=>!String.IsNullOrEmpty(x)).ToArray();
                         for (int j = 0; j < taggedTokenArray.Length; j +=2)
@@ -168,7 +168,7 @@ namespace ADMPrj.Data
                             .Set("r.Count = 1")
                             .OnMatch()
                             .Set("r.Count = r.Count+1")
-                            .Merge("(m)<-[t:PREV]-(n)")
+                            .Merge("(m)-[t:PREV]->(n)")
                             .OnCreate()
                             .Set("t.Count = 1")
                             .OnMatch()
